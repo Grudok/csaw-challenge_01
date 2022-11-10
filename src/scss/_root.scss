@@ -1,0 +1,61 @@
+@import "mixins";
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background: $fontAndHoverColor;
+    color: $thirdBackgroundColor;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    @include devices(desktop)
+    {
+        font-size: 55%;
+
+        @include devices(smartphone)
+        {
+            font-size: 50%;
+        }
+    }
+}
+
+html::-webkit-scrollbar {
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: $secondaryBackgroundColor;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: $fontAndHoverColor;
+}
+
+body {
+    background: $primaryBackgroundColor;
+    overflow: hidden;
+    padding-left: 35rem;
+
+    @include devices(tablet)
+    {
+        padding: 0;
+    }
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}

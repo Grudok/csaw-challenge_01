@@ -1,0 +1,84 @@
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: $fontSizeXL;
+    padding: 1rem;
+    border-bottom: .1rem solid $defaulBorderBottomColor;
+    color:$primaryFontColor;
+
+    @include devices(phone)
+    {
+        margin: 0 3rem;
+    }
+
+    span {
+        color: $fontAndHoverColor;
+    }
+}
+
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3 {
+    font-size: $fontSizeS;
+    color: $fontAndHoverColor;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span {
+    color: $secondaryFontColor;
+    padding: 0 .5rem;
+}
+
+.about .row .box {
+    width: 20rem;
+    background: $secondaryBackgroundColor;
+    padding: 2rem;
+    margin: 2rem;
+
+    @include devices(phone)
+    {
+        width: 100%;
+    }
+}
+
+.about .row .box span {
+    font-size: $fontSizeXL;
+    color: $fontAndHoverColor;
+}
+
+.about .row .box h3 {
+    font-size: $fontSizeS;
+    color: $primaryFontColor;
+}
+
+.about-me h3 {
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    color: $primaryFontColor;
+}
+
+.about-me h1 {
+    font-size: $fontSizeMS;
+    color: $primaryFontColor;
+}
+
+.about-me h1 {
+    color: $fontAndHoverColor;
+}
+
+.about-me p {
+    font-size: $fontSizeS;
+    color: $secondaryFontColor;
+    padding: 1rem 1rem;
+}

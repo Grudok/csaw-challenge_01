@@ -1,0 +1,14 @@
+.footer
+{
+    margin-top: 2rem;
+    font-size: $fontSizeS;
+    padding: 2.5rem;
+    text-align: center;
+    color: $secondaryFontColor;
+    background-color: $fourthBackgroundColor;
+
+    span
+    {
+        color: $primaryFontColor;
+    }
+}

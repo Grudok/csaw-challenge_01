@@ -1,0 +1,53 @@
+@import "mixins";
+
+#menu-bars
+{
+    position: fixed;
+    top:1rem; right: 1rem;
+    z-index: 10000;
+    background: $primaryBackgroundColor;
+    color: $primaryFontColor;
+    border-radius: .5rem;
+    padding:1rem 1.5rem;
+    font-size: 3rem;
+    cursor:pointer;
+    display: none;
+
+    @include devices(tablet)
+    {
+        display: initial;
+    }
+}
+
+   
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+
+    @include devices(desktop)
+    {
+        padding: 1rem 4rem;
+    }
+}
+
+.home h3 {
+    font-size: $fontSizeMS;
+    color: $primaryFontColor;
+}
+
+.home h1 {
+    font-size: $fontSizeXXL;
+    color: $primaryFontColor;
+}
+
+.home h1 span {
+    color: $fontAndHoverColor;
+}
+
+.home p {
+    font-size: $fontSizeS;
+    color: $secondaryFontColor;
+    padding: 1rem 0;
+}

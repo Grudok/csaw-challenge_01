@@ -1,0 +1,58 @@
+#portfolio-main
+{
+   display: grid;
+   grid-template-columns: repeat(2,auto);
+
+    @include devices(phone)
+    {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+}
+
+.container {
+    width: 24rem;
+    margin-top: 100.6px;
+    margin-left: 15rem;
+
+    @include devices(phone)
+    {
+        width: 100%;
+    }
+}
+
+.box-image {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid $fontAndHoverColor;
+}
+
+h3 {
+    margin: 1rem;
+    font-size: $fontSizeS;
+    color: $primaryFontColor;
+}
+
+p {
+    font-size: $fontSizeXS;
+    color: $secondaryFontColor;
+    padding: 1rem 0;
+}
+
+
+
+//image carousel designs
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+}
+.splide
+{
+    border: .7rem solid $fontAndHoverColor;
+    margin-bottom: 18.9rem;
+    margin-top: 10.6rem;
+}

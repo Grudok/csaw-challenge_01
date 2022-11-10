@@ -1,0 +1,20 @@
+.contact
+{
+    font-size: $fontSizeXL;
+    color:$primaryFontColor;
+
+    @include devices(phone)
+    {
+        margin: 0 3rem;
+    }
+
+    span {
+        color: $fontAndHoverColor;
+    }
+
+    .info h3 {
+        font-size: $fontSizeS;
+        color: $fontAndHoverColor;
+        font-weight: normal;
+    }
+}

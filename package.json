@@ -1,0 +1,17 @@
+{
+  "name": "csaw-challenge_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "sass --watch src/scss/index.scss public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.3",
+    "jquery": "^3.6.1",
+    "sass": "^1.56.0"
+  }
+}

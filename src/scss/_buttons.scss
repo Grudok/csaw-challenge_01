@@ -1,0 +1,18 @@
+.btn {
+    padding: .7rem 3rem;
+    background: $thirdBackgroundColor;
+    color: $primaryFontColor;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: $fontSizeS;
+    border-radius: 5rem;
+}
+
+.btn i {
+    padding: 0 .5rem;
+    font-size: $fontSizeSM;
+}
+
+.btn:hover {
+    background: $fontAndHoverColor;
+}
