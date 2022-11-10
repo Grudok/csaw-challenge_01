@@ -42,6 +42,23 @@ p {
     padding: 1rem 0;
 }
 
+.github-link
+{
+    margin-top: 10rem;
+    font-size: $fontSizeS;
+
+    p{
+        border-bottom: .1rem solid $defaulBorderBottomColor;
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+}
+
 
 
 //image carousel designs

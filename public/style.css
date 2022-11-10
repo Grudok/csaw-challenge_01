@@ -58,6 +58,15 @@ section {
   padding: 1rem;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFCC33;
+}
+
 .btn {
   padding: 0.7rem 3rem;
   background: #697281;
@@ -269,6 +278,7 @@ header .navbar ul li a:hover {
 }
 
 .about-me h1 {
+  margin: 1rem;
   font-size: 2.5rem;
   color: #fff;
 }
@@ -384,6 +394,20 @@ p {
   font-size: 1.4rem;
   color: #eee;
   padding: 1rem 0;
+}
+
+.github-link {
+  margin-top: 10rem;
+  font-size: 2rem;
+}
+.github-link p {
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2666666667);
+}
+.github-link a {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .splide__slide img {

@@ -59,3 +59,12 @@ section {
     min-height: 100vh;
     padding: 1rem;
 }
+
+a{
+    color: $primaryFontColor;
+    text-decoration: none;
+}
+a:hover
+{
+    color: $fontAndHoverColor;
+}
