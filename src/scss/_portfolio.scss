@@ -1,23 +1,45 @@
-#portfolio-main
-{
-   display: grid;
-   grid-template-columns: repeat(2,auto);
+#portfolio-main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 
-    @include devices(phone)
-    {
+    @include devices(tablet) {
         display: grid;
-        grid-template-columns: repeat(1,auto);
+        justify-content: center;
+        grid-template-columns: repeat(1, auto);
+
+        @include devices(smartphone) {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(1, auto);
+        }
+
+        @include devices(phone) {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(1, auto);
+        }
     }
 }
 
 .container {
     width: 24rem;
-    margin-top: 100.6px;
+    margin-top: 11.7rem;
+    margin-bottom: 18.6rem;
     margin-left: 15rem;
 
-    @include devices(phone)
+    @include devices(tablet) 
     {
-        width: 100%;
+        margin-left: 0rem;
+
+        @include devices(smartphone) 
+        {
+            margin-left: 0rem;
+        }
+
+        @include devices(phone) 
+        {
+            margin-left: 0rem;
+        }
     }
 }
 
@@ -42,16 +64,15 @@ p {
     padding: 1rem 0;
 }
 
-.github-link
-{
+.github-link {
     margin-top: 10rem;
     font-size: $fontSizeS;
 
-    p{
+    p {
         border-bottom: .1rem solid $defaulBorderBottomColor;
     }
 
-    a{
+    a {
         display: flex;
         align-items: center;
         margin-top: 1rem;
@@ -67,9 +88,24 @@ p {
     width: 100%;
     height: 100%;
 }
-.splide
-{
+
+.splide {
     border: .7rem solid $fontAndHoverColor;
-    margin-bottom: 18.9rem;
-    margin-top: 10.6rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+
+    @include devices(tablet) 
+    {
+        margin-left: 0rem;
+
+        @include devices(smartphone) 
+        {
+            margin-left: 0rem;
+        }
+
+        @include devices(phone) 
+        {
+            margin-left: 0rem;
+        }
+    }
 }

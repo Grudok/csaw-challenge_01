@@ -44,7 +44,7 @@ const portfolio = [
       description: 'Thats my biggest project i actually have. Its not finished yet but i hope i will be in the future. I work with C# and the unity engine. I started this project for my Wifi-Diplomia and i am continully working on this as hobbie.',
       category: 'Game Development',
       image: ['../screenshots/game2.png', '../screenshots/game1.png','../screenshots/game3.png','../screenshots/game4.png', '../screenshots/game5.png', '../screenshots/Gamescreenshot05.png',] ,
-      coding: "C#"
+      coding: "C#, Unity-Engine",
     },
     {
       id: 2,
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio01', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 });
 
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio02', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 });
 
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio03', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 });
 
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio04', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 });
 
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio05', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 
 });document.addEventListener('DOMContentLoaded', function () 
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio06', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 
 });document.addEventListener('DOMContentLoaded', function () 
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio07', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 
 });document.addEventListener('DOMContentLoaded', function () 
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio08', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 
 });document.addEventListener('DOMContentLoaded', function () 
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio09', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 
 });document.addEventListener('DOMContentLoaded', function () 
@@ -239,6 +239,6 @@ document.addEventListener('DOMContentLoaded', function ()
   new Splide('#portfolio10', 
   {
 		cover: true,
-    heightRatio: 0.5,
+    heightRatio: 1,
   }).mount();
 });
