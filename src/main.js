@@ -45,6 +45,7 @@ const portfolio = [
       category: 'Game Development',
       image: ['../screenshots/game2.png', '../screenshots/game1.png','../screenshots/game3.png','../screenshots/game4.png', '../screenshots/game5.png', '../screenshots/Gamescreenshot05.png',] ,
       coding: "C#, Unity-Engine",
+      alt: "game2-picture",
     },
     {
       id: 2,
@@ -52,7 +53,8 @@ const portfolio = [
       description: 'That is my first attempt to create a webpage on my own. It was only for learning purposes.',
       category: 'Webdevelopment',
       image: ['../screenshots/Webpage.png', ],
-      coding: "Html, CSS, JS"
+      coding: "Html, CSS, JS",
+      alt: "firstwepage-picture",
     },
     {
       id: 3,
@@ -60,7 +62,8 @@ const portfolio = [
       description: 'Thats a simple calculator. For the basic calculation types',
       category: 'Software Development',
       image: ['../screenshots/calculatorforms.png', '../screenshots/calculator.png', '../screenshots/ergebnisse.png',],
-      coding: "C#"
+      coding: "C#",
+      alt: "calculator-picture",
     },
     {
       id: 4,
@@ -68,7 +71,8 @@ const portfolio = [
       description: 'That is a little lotto game where you can guess the lotto numbers.',
       category: 'Game Development',
       image: ['../screenshots/lottoergebnis.png', '../screenshots/lotto.png', '../screenshots/Coding.png',],
-      coding: "C#"
+      coding: "C#",
+      alt: "lotto-picture",
     },
     {
       id: 5,
@@ -76,7 +80,8 @@ const portfolio = [
       description: 'Its a little text adventure where you have a default windows forms overlay there are buttons to interact with the enviorment',
       category: 'Game Development',
       image: ['../screenshots/wifiadvenureforms.png', '../screenshots/wifiadventure.png', '../screenshots/wifiadventurecode.png', ],
-      coding: "C#"
+      coding: "C#",
+      alt: "textadventure-picture",
     },
     {
       id: 6,
@@ -84,7 +89,8 @@ const portfolio = [
       description: 'This little project was a attempt to create a "personalverrechnung" at the end you can see which person gets money',
       category: 'Software Development',
       image: ['../screenshots/personalverrechner1.png','../screenshots/personalverrechner2.png','../screenshots/personalverrechner3.png',],
-      coding: "C#"
+      coding: "C#",
+      alt: "personalverrechnung-picture",
     },
     {
       id: 7,
@@ -92,7 +98,8 @@ const portfolio = [
       description: 'That was a little Database lecture to learn how it works.',
       category: 'Database Management',
       image: ['../screenshots/musik1.png', '../screenshots/musik2.png','../screenshots/musik3.png','../screenshots/musik4.png',],
-      coding: "C# and SQL"
+      coding: "C# and SQL",
+      alt: "database-picture",
     },
     {
       id: 8,
@@ -100,7 +107,8 @@ const portfolio = [
       description: 'I create a button for learning purposes',
       category: 'Webdevelopment',
       image: ['../screenshots/counter.png', ],
-      coding: "Html, CSS, JS"
+      coding: "Html, CSS, JS",
+      alt: "buttonexample-picture",
     },
     {
       id: 9,
@@ -108,7 +116,8 @@ const portfolio = [
       description: 'That was a project to learn sass and install the template',
       category: 'Webdevelopment',
       image: ['../screenshots/sass.png', '../screenshots/sass1.png', '../screenshots/sass2.png','../screenshots/sass3.png',],
-      coding: "Html, Sass/CSS"
+      coding: "Html, Sass/CSS",
+      alt: "sassproject-picture",
     },
     {
       id: 10,
@@ -116,7 +125,8 @@ const portfolio = [
       description: 'That was a project to learn about Tailwind',
       category: 'Webdevelopment',
       image: ['../screenshots/tailwind1.png',],
-      coding: "Html, Tailwind/CSS"
+      coding: "Html, Tailwind/CSS",
+      alt: "tailwindproject-picture",
     },
 ]
 
@@ -129,31 +139,32 @@ function portfoliosDisplay()
 {
     portfolio.forEach((entrie) =>
     {
-        const card = document.createElement("div");
-        card.classList.add("container");
+      const card = document.createElement("div");
+      card.classList.add("container");
 
-        const title = document.createElement("h3");
-        title.innerText = entrie.title;
-        card.appendChild(title);
+      const title = document.createElement("h3");
+      title.innerText = entrie.title;
+      card.appendChild(title);
 
-        const image = document.createElement("img");
-        image.classList.add("box-image");
-        image.src = entrie.image[0];
-        card.appendChild(image);
+      const image = document.createElement("img");
+      image.classList.add("box-image");
+      image.src = entrie.image[0];
+      image.alt = entrie.alt;
+      card.appendChild(image);
 
-        const description = document.createElement("p");
-        description.innerText = entrie.description;
-        card.appendChild(description);
+      const description = document.createElement("p");
+      description.innerText = entrie.description;
+      card.appendChild(description);
 
-        const category = document.createElement("p");
-        category.innerText = entrie.category;
-        card.appendChild(category);
+      const category = document.createElement("p");
+      category.innerText = entrie.category;
+      card.appendChild(category);
 
-        const coding = document.createElement("p");
-        coding.innerText = entrie.coding;
-        card.appendChild(coding);
+      const coding = document.createElement("p");
+      coding.innerText = entrie.coding;
+      card.appendChild(coding);
 
-        portfolioDisplay.appendChild(card);
+      portfolioDisplay.appendChild(card);
     });
 };
 
