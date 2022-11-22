@@ -13,6 +13,6 @@
     font-size: $fontSizeSM;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     background: $fontAndHoverColor;
 }

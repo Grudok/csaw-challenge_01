@@ -66,6 +66,6 @@ header .navbar ul li a {
     border-radius: 5rem;
 }
 
-header .navbar ul li a:hover {
+header .navbar ul li a:hover, header .navbar ul li a:focus {
     background: $fontAndHoverColor;
 }

@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #FFCC33;
 }
 
@@ -82,7 +82,7 @@ a:hover {
   font-size: 1.8rem;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   background: #FFCC33;
 }
 
@@ -153,7 +153,7 @@ header .navbar ul li a {
   border-radius: 5rem;
 }
 
-header .navbar ul li a:hover {
+header .navbar ul li a:hover, header .navbar ul li a:focus {
   background: #FFCC33;
 }
 
