@@ -166,7 +166,6 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 });
-
 document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio02', 
@@ -175,7 +174,6 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 });
-
 document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio03', 
@@ -184,7 +182,6 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 });
-
 document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio04', 
@@ -193,7 +190,6 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 });
-
 document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio05', 
@@ -202,7 +198,8 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 
-});document.addEventListener('DOMContentLoaded', function () 
+});
+document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio06', 
   {
@@ -210,7 +207,8 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 
-});document.addEventListener('DOMContentLoaded', function () 
+});
+document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio07', 
   {
@@ -218,7 +216,8 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 
-});document.addEventListener('DOMContentLoaded', function () 
+});
+document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio08', 
   {
@@ -226,7 +225,8 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 
-});document.addEventListener('DOMContentLoaded', function () 
+});
+document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio09', 
   {
@@ -234,7 +234,8 @@ document.addEventListener('DOMContentLoaded', function ()
     heightRatio: 1,
   }).mount();
 
-});document.addEventListener('DOMContentLoaded', function () 
+});
+document.addEventListener('DOMContentLoaded', function () 
 {
   new Splide('#portfolio10', 
   {
